@@ -7,7 +7,8 @@
       "namespace": "android_app",
       "package_name": "io.github.dancarter10.folioreader",
       "sha256_cert_fingerprints": [
-        "B4:F6:59:6C:44:6D:94:48:33:14:51:04:CD:C0:0D:4F:00:EE:C1:4C:98:69:C6:98:67:62:6D:E3:A2:93:23:1C"
+        "B4:F6:59:6C:44:6D:94:48:33:14:51:04:CD:C0:0D:4F:00:EE:C1:4C:98:69:C6:98:67:62:6D:E3:A2:93:23:1C",
+        "7A:DC:60:7D:E9:5A:19:C2:5F:12:14:A1:8B:43:1F:75:BD:F5:54:68:4D:E5:38:18:9B:39:BB:33:A0:89:D3:29"
       ]
     }
   }
