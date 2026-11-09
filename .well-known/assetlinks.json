@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.dancarter10.folioreader",
+      "sha256_cert_fingerprints": [
+        "B4:F6:59:6C:44:6D:94:48:33:14:51:04:CD:C0:0D:4F:00:EE:C1:4C:98:69:C6:98:67:62:6D:E3:A2:93:23:1C"
+      ]
+    }
+  }
+]
