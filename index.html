@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Folio Reader for Android</title>
+  <meta name="theme-color" content="#FBF8FD">
+  <link rel="icon" href="folio-reader/icons/favicon.svg" type="image/svg+xml">
+  <style>
+    :root { color-scheme: light dark; --bg: #FBF8FD; --fg: #1B1B1F; --muted: #45464F; --primary: #0856CF; --on-primary: #FFFFFF; --card: #EFEDF1; --tonal: #DAE2FF; --on-tonal: #001A41; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #131316; --fg: #E4E2E6; --muted: #C6C5D0; --primary: #B2C5FF; --on-primary: #002C71; --card: #1F1F23; --tonal: #2B4678; --on-tonal: #DAE2FF; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px 16px; background: var(--bg); color: var(--fg); font: 16px/24px Roboto, "Segoe UI", system-ui, sans-serif; }
+    main { width: min(440px, 100%); text-align: center; }
+    img { width: 96px; height: 96px; border-radius: 24px; }
+    h1 { margin: 16px 0 4px; font-size: 32px; line-height: 40px; font-weight: 400; }
+    p { margin: 0 0 24px; color: var(--muted); }
+    .buttons { display: grid; gap: 12px; margin-bottom: 32px; }
+    a.btn { display: inline-flex; align-items: center; justify-content: center; height: 48px; border-radius: 24px; font-weight: 500; letter-spacing: .1px; text-decoration: none; }
+    .filled { background: var(--primary); color: var(--on-primary); }
+    .tonal { background: var(--tonal); color: var(--on-tonal); }
+    ol { margin: 0; padding: 16px 16px 16px 36px; text-align: left; background: var(--card); border-radius: 16px; color: var(--muted); font-size: 14px; line-height: 20px; }
+    li + li { margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="folio-reader/icons/icon-192.png" alt="">
+    <h1>Folio Reader</h1>
+    <p>Read, share and print PDFs.</p>
+    <div class="buttons">
+      <a class="btn filled" href="folio-reader.apk" download>Download for Android</a>
+      <a class="btn tonal" href="folio-reader/">Open in the browser</a>
+    </div>
+    <ol>
+      <li>Tap <strong>Download for Android</strong>. If Chrome warns you about the file, tap <strong>Download anyway</strong>.</li>
+      <li>Open the download and tap <strong>Install</strong>. If asked, allow Chrome to install apps.</li>
+      <li>Open any PDF, choose <strong>Folio Reader</strong>, then tap <strong>Always</strong>.</li>
+    </ol>
+  </main>
+</body>
+</html>

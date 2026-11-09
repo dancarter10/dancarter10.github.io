@@ -1,0 +1,63 @@
+{
+  "packageId": "io.github.dancarter10.folioreader",
+  "host": "dancarter10.github.io",
+  "name": "Folio Reader",
+  "launcherName": "Folio Reader",
+  "display": "standalone",
+  "themeColor": "#FBF8FD",
+  "themeColorDark": "#131316",
+  "navigationColor": "#FBF8FD",
+  "navigationColorDark": "#131316",
+  "navigationDividerColor": "#FBF8FD",
+  "navigationDividerColorDark": "#131316",
+  "backgroundColor": "#FBF8FD",
+  "enableNotifications": false,
+  "startUrl": "/folio-reader/",
+  "iconUrl": "https://dancarter10.github.io/folio-reader/icons/icon-512.png",
+  "maskableIconUrl": "https://dancarter10.github.io/folio-reader/icons/maskable-512.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "./signing.p12",
+    "alias": "folio"
+  },
+  "appVersionName": "1.0.0",
+  "appVersionCode": 1,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://dancarter10.github.io/folio-reader/manifest.webmanifest",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://dancarter10.github.io/folio-reader/",
+  "minSdkVersion": 21,
+  "orientation": "default",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [
+    {
+      "actionUrl": "https://dancarter10.github.io/folio-reader/",
+      "mimeTypes": ["application/pdf"]
+    }
+  ],
+  "shareTarget": {
+    "action": "https://dancarter10.github.io/folio-reader/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "files": [
+        {
+          "name": "file",
+          "accept": ["application/pdf", ".pdf"]
+        }
+      ]
+    }
+  },
+  "appVersion": "1.0.0"
+}
