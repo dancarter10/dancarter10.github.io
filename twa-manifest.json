@@ -34,7 +34,7 @@
   "isChromeOSOnly": false,
   "isMetaQuest": false,
   "fullScopeUrl": "https://dancarter10.github.io/folio-reader/",
-  "minSdkVersion": 21,
+  "minSdkVersion": 24,
   "orientation": "default",
   "fingerprints": [],
   "additionalTrustedOrigins": [],
@@ -43,7 +43,9 @@
   "fileHandlers": [
     {
       "actionUrl": "https://dancarter10.github.io/folio-reader/",
-      "mimeTypes": ["application/pdf"]
+      "mimeTypes": [
+        "application/pdf"
+      ]
     }
   ],
   "shareTarget": {
@@ -54,7 +56,9 @@
       "files": [
         {
           "name": "file",
-          "accept": ["application/pdf", ".pdf"]
+          "accept": [
+            "application/pdf"
+          ]
         }
       ]
     }
