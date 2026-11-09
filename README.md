@@ -2,8 +2,8 @@
 
 This repository builds the **Folio Reader** Android app and hosts the files Android needs to trust it.
 
-- `twa-manifest.json`: the Android app's settings (name, icon, colours), and the setting that registers Folio Reader for PDF files.
-- `generate-project.cjs`, `update-assetlinks.cjs`: small helper scripts the build uses.
+- `twa-manifest.json`: the Android app's settings (name, icon, colours, full screen), and the setting that registers Folio Reader for PDF files.
+- `generate-project.cjs`, `update-assetlinks.cjs`: small helper scripts the build uses. `generate-project.cjs` also makes the app use the whole screen, including the strip beside the camera.
 - `.github/workflows/build-android.yml`: builds the app on GitHub's servers with Google's Bubblewrap tool. It runs by itself whenever the app's settings or the build files change. You can also run it from the **Actions** tab.
 - `folio-reader.apk`: the finished app. The build adds it here, and it downloads from `https://dancarter10.github.io/folio-reader.apk`.
 - `.well-known/assetlinks.json`: proves the app belongs to this website, so it opens full screen without a browser address bar. The build updates it.

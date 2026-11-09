@@ -3,7 +3,7 @@
   "host": "dancarter10.github.io",
   "name": "Folio Reader",
   "launcherName": "Folio Reader",
-  "display": "standalone",
+  "display": "fullscreen-sticky",
   "themeColor": "#FBF8FD",
   "themeColorDark": "#131316",
   "navigationColor": "#FBF8FD",
@@ -20,8 +20,8 @@
     "path": "./signing.p12",
     "alias": "folio"
   },
-  "appVersionName": "1.0.0",
-  "appVersionCode": 1,
+  "appVersionName": "1.1.0",
+  "appVersionCode": 2,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
   "webManifestUrl": "https://dancarter10.github.io/folio-reader/manifest.webmanifest",
@@ -63,5 +63,5 @@
       ]
     }
   },
-  "appVersion": "1.0.0"
+  "appVersion": "1.1.0"
 }
